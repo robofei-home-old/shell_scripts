@@ -13,12 +13,12 @@ export ROS_IP=${robot_ip[0]}
 export ROSCONSOLE_FORMAT='[${severity}] [${time}]: ${node}: ${message}'
 
 # source catkin
-source devel/setup.zsh
+source devel/setup.bash
 
 ######################################################################
 
 # map_name=where_is_this
-map_name=robocup_2019__receptionist
+map_name=wrs2020_fast_highrtf_knob
 enable_gui=true
 
 # start robot

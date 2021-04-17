@@ -13,27 +13,27 @@ export ROS_IP=${robot_ip[0]}
 export ROSCONSOLE_FORMAT='[${severity}] [${time}]: ${node}: ${message}'
 
 # source catkin
-source devel/setup.zsh
+source devel/setup.bash
 
 ######################################################################
 
 # <!-- main info -->
 enable_rviz=true
-map_name=larc_2020
+map_name=robocup_at_home_2020
 #map_name=servicesim
 resources='$(find hera)/resources'
 
 # <!-- robot info -->
 robot_name=robot
 #robot_model='$(find hera_description)/robots/hera.urdf.xacro'
-robot_model='$(find hera_description)/urdf/hera_description.urdf'
+robot_model='$(find hera_description)/robots/hera_full.urdf.xacro'
 teleop_keyboard=true
 
 # <!-- robot config -->
-init_pos_x=0.315679
-init_pos_y=2.002578
-init_pos_z=0.101323
-init_yaw=-1.077902
+init_pos_x=-2.250574
+init_pos_y=3.592245
+init_pos_z=0.005000
+init_yaw=-1.546853
 
 
 
