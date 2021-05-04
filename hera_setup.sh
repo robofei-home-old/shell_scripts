@@ -24,8 +24,6 @@ done
 RDIR="$( dirname "$SOURCE" )"
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 
-
-
 echo "Cloning Repositories"
 git clone https://github.com/robofei-home/hera_robot
 git clone https://github.com/robofei-home/simulation_system
@@ -48,39 +46,42 @@ git clone https://github.com/robofei-home/speech_recognition
 echo "Setting up speech recognition package"
 sudo chmod +x speech_recognition/gsr_ros/src/recognition.py
 sudo chmod +x speech_recognition/gtts_ros/src/gtts_node.py
-# cd speech_recognition/gtts_ros/src
-# git clone http://github.com/festvox/flite
-# cd flite
-# ./configure
-# make
-# make get_voices
+cd speech_recognition/gtts_ros/src
+git clone http://github.com/festvox/flite
+cd flite
+./configure
+make
+make get_voices
 
-# echo "Installing Dependencies"
-# sudo apt-get install ros-melodic-object-recognition-msgs -y
-# sudo apt-get install ros-melodic-people-msgs -y
-# sudo apt-get install libsndfile1-dev python-dev libportaudio2 libportaudiocpp0 portaudio19-dev vorbis-tools swig -y
-# sudo apt-get install python-pip -y
-# sudo apt-get install espeak -y
-# sudo apt-get install mpg321 -y
-# sudo apt-get install ros-melodic-base-local-planner -y
+echo "Installing Dependencies"
+sudo apt-get install ros-melodic-object-recognition-msgs -y
+sudo apt-get install ros-melodic-people-msgs -y
+sudo apt-get install libsndfile1-dev python-dev libportaudio2 libportaudiocpp0 portaudio19-dev vorbis-tools swig -y
+sudo apt-get install python-pip -y
+sudo apt-get install espeak -y
+sudo apt-get install mpg321 -y
+sudo apt-get install ros-melodic-base-local-planner -y
+sudo apt-get install ros-melodic-teleop-twist-keyboard -y
+sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers -y
+sudo apt-get install ros-melodic-amcl -y
+sudo apt-get install ros-melodic-move-base -y 
+sudo apt-get install ros-melodic-trac-ik-kinematics-plugin -y
+sudo apt-get install ros-melodic-map-server -y
 
+echo "Installing python dependencies"
+pip install SpeechRecognition
+sudo pip install face-recognition
+python -m pip install --upgrade pip setuptools wheel
+pip install --upgrade pocketsphinx
+python -m pip install jellyfish
+python -m pip install deepspeech==0.4.1
+sudo pip2 install -U gTTS
+sudo pip2 install --upgrade cryptography
+sudo python -m easy_install --upgrade pyOpenSSL
 
-# echo "Installing python dependencies"
-# pip install SpeechRecognition
-# python -m pip install --upgrade pip setuptools wheel
-# pip install --upgrade pocketsphinx
-# python -m pip install jellyfish
-# python -m pip install deepspeech==0.4.1
-# sudo pip2 install -U gTTS
-# sudo pip2 install --upgrade cryptography
-# sudo python -m easy_install --upgrade pyOpenSSL
-
-
-
-
-# cd ~/Downloads && wget https://files.pythonhosted.org/packages/ab/42/b4f04721c5c5bfc196ce156b3c768998ef8c0ae3654ed29ea5020c749a6b/PyAudio-0.2.11.tar.gz
-# cd ~/Downloads &&  tar xvzf PyAudio-0.2.11.tar.gz
-# cd ~/Downloads/PyAudio-0.2.11 && sudo python setup.py install
-# cd $DIR
-# cd ..
-# catkin_make
+cd ~/Downloads && wget https://files.pythonhosted.org/packages/ab/42/b4f04721c5c5bfc196ce156b3c768998ef8c0ae3654ed29ea5020c749a6b/PyAudio-0.2.11.tar.gz
+cd ~/Downloads &&  tar xvzf PyAudio-0.2.11.tar.gz
+cd ~/Downloads/PyAudio-0.2.11 && sudo python setup.py install
+cd $DIR
+cd ..
+catkin_make
