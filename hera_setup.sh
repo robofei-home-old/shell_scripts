@@ -67,6 +67,7 @@ sudo apt-get install ros-melodic-amcl -y
 sudo apt-get install ros-melodic-move-base -y 
 sudo apt-get install ros-melodic-trac-ik-kinematics-plugin -y
 sudo apt-get install ros-melodic-map-server -y
+sudo apt-get install xterm -y
 
 echo "Installing python dependencies"
 pip install SpeechRecognition
