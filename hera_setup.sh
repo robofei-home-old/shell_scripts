@@ -4,6 +4,7 @@ cd ~
 mkdir catkin_hera
 cd catkin_hera
 mkdir src
+source /opt/ros/melodic/setup.bash
 catkin_make
 cd src
 
