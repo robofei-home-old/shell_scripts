@@ -1,0 +1,15 @@
+- git: {local-name: hera_robot,                             uri: 'https://github.com/robofei-home/hera_robot.git'}
+- git: {local-name: simulation_system,                      uri: 'https://github.com/robofei-home/simulation_system.git'}
+- git: {local-name: hera,                                   uri: 'https://github.com/robofei-home/hera.git'}
+- git: {local-name: manipulation_system,                    uri: 'https://github.com/robofei-home/manipulation_system.git'}
+- git: {local-name: vision_system,                          uri: 'https://github.com/robofei-home/vision_system.git'}
+- git: {local-name: dodo_detector_ros,                      uri: 'https://github.com/robofei-home/dodo_detector_ros.git'}
+- git: {local-name: navigation_system,                      uri: 'https://github.com/robofei-home/navigation_system.git'}
+- git: {local-name: hera_nav,                               uri: 'https://github.com/robofei-home/hera_nav.git'}
+- git: {local-name: speech_recognition,                     uri: 'https://github.com/robofei-home/speech_recognition.git'}
+
+
+
+
+
+
