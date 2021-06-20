@@ -44,12 +44,12 @@
 - git: {local-name: pal_robotiq_gripper,                    uri: 'https://github.com/pal-robotics/pal_robotiq_gripper.git', version: 'master'}
 - git: {local-name: hera_robot,                             uri: 'https://github.com/robofei-home/hera_robot.git', version: 'main'}
 - git: {local-name: simulation_system,                      uri: 'https://github.com/robofei-home/simulation_system.git', version: 'main'}
-- git: {local-name: hera,                                   uri: 'https://github.com/robofei-home/hera.git', version: 'main'}
+- git: {local-name: hera,                                   uri: 'https://github.com/robofei-home/hera.git', version: 'master'}
 - git: {local-name: manipulation_system,                    uri: 'https://github.com/robofei-home/manipulation_system.git', version: 'main'}
 - git: {local-name: vision_system,                          uri: 'https://github.com/robofei-home/vision_system.git', version: 'main'}
-- git: {local-name: dodo_detector_ros,                      uri: 'https://github.com/robofei-home/dodo_detector_ros.git', version: 'main'}
+- git: {local-name: dodo_detector_ros,                      uri: 'https://github.com/robofei-home/dodo_detector_ros.git', version: 'master'}
 - git: {local-name: navigation_system,                      uri: 'https://github.com/robofei-home/navigation_system.git', version: 'main'}
-- git: {local-name: hera_nav,                               uri: 'https://github.com/robofei-home/hera_nav.git', version: 'main'}
+- git: {local-name: hera_nav,                               uri: 'https://github.com/robofei-home/hera_nav.git', version: 'master'}
 - git: {local-name: speech_recognition,                     uri: 'https://github.com/robofei-home/speech_recognition.git', version: 'main'}
 
 
