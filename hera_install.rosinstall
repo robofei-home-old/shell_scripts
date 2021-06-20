@@ -38,7 +38,6 @@
 - git: {local-name: humanoid_msgs,                          uri: 'https://github.com/ahornung/humanoid_msgs.git', version: 'master'}
 - git: {local-name: slam_gmapping,                          uri: 'https://github.com/ros-perception/slam_gmapping.git', version: 'hydro-devel'}
 - git: {local-name: openslam_gmapping,                      uri: 'https://github.com/ros-perception/openslam_gmapping.git', version: 'master'}
-- git: {local-name: eband_local_planner,                    uri: 'https://github.com/pal-robotics-forks/eband_local_planner.git', version: 'melodic-devel'}
 - git: {local-name: navigation_layers,                      uri: 'https://github.com/DLu/navigation_layers.git', version: 'melodic'}
 - git: {local-name: custom_end_effector,                    uri: 'https://github.com/pal-robotics/custom_end_effector.git', version: 'master'}
 - git: {local-name: pal_robotiq_gripper,                    uri: 'https://github.com/pal-robotics/pal_robotiq_gripper.git', version: 'master'}
@@ -47,7 +46,6 @@
 - git: {local-name: hera,                                   uri: 'https://github.com/robofei-home/hera.git', version: 'master'}
 - git: {local-name: manipulation_system,                    uri: 'https://github.com/robofei-home/manipulation_system.git', version: 'main'}
 - git: {local-name: vision_system,                          uri: 'https://github.com/robofei-home/vision_system.git', version: 'main'}
-- git: {local-name: dodo_detector_ros,                      uri: 'https://github.com/robofei-home/dodo_detector_ros.git', version: 'master'}
 - git: {local-name: navigation_system,                      uri: 'https://github.com/robofei-home/navigation_system.git', version: 'main'}
 - git: {local-name: hera_nav,                               uri: 'https://github.com/robofei-home/hera_nav.git', version: 'master'}
 - git: {local-name: speech_recognition,                     uri: 'https://github.com/robofei-home/speech_recognition.git', version: 'main'}
