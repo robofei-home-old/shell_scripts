@@ -18,7 +18,8 @@ source devel/setup.bash
 ######################################################################
 
 # map_name=where_is_this
-map_name=wrs2020_fast_highrtf_knob
+# map_name=wrs2020_fast_highrtf_knob
+map_name=wrs2020
 enable_gui=true
 
 # start robot
@@ -26,4 +27,5 @@ enable_gui=true
 #roslaunch sd_worlds gazebo.launch model:=$map_name enable_gui:=$enable_gui
 #roslaunch social_worlds start_world.launch model:=$map_name enable_gui:=$enable_gui 
 roslaunch social_worlds start_world.launch world_name:=$map_name enable_gui:=$enable_gui
+rosrun tmc_gazebo_task_evaluators setup_score_widget
 # roslaunch servicesim_competition competition.launch
