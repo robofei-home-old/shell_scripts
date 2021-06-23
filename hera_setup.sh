@@ -30,6 +30,8 @@ git clone https://github.com/robofei-home/hera_robot
 git clone https://github.com/robofei-home/simulation_system
 git clone https://github.com/robofei-home/shell_scripts
 git clone https://github.com/robofei-home/hera
+git clone https://github.com/robofei-home/tmc_wrs_gazebo
+git clone https://github.com/robofei-home/tmc_gazebo_task_evaluators
 
 cd $DIR
 echo "Cloning Repositories"
