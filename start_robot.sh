@@ -19,8 +19,8 @@ source devel/setup.bash
 
 # <!-- main info -->
 enable_rviz=true
-map_name=robocup_at_home_2020
-#map_name=servicesim
+map_name=wrs2020
+# map_name=servicesim
 resources='$(find hera)/resources'
 
 # <!-- robot info -->
@@ -30,10 +30,10 @@ robot_model='$(find hera_description)/robots/hera_full.urdf.xacro'
 teleop_keyboard=true
 
 # <!-- robot config -->
-init_pos_x=-2.250574
-init_pos_y=3.592245
+init_pos_x=-2.120029
+init_pos_y=1.157987
 init_pos_z=0.005000
-init_yaw=-1.546853
+init_yaw=-1.546850
 
 
 
