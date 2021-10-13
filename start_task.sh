@@ -31,7 +31,7 @@ source devel/setup.zsh
 #roslaunch tasks bring_up.launch enable_bot:=true task:=FollowMe
 #roslaunch tasks bring_up.launch enable_bot:=true task:=spr
 #roslaunch tasks bring_up.launch enable_bot:=false task:=ReceptionistCopy
-roslaunch tasks bring_up.launch enable_bot:=false task:=ReceptionistCopy1
+# roslaunch tasks bring_up.launch enable_bot:=false task:=ReceptionistCopy1
 #roslaunch tasks bring_up.launch enable_bot:=false task:=restaurant
-# roslaunch tasks bring_up.launch enable_bot:=true task:=quiz
+roslaunch tasks bring_up.launch enable_bot:=true task:=CleanUp_simulation
 #roslaunch tasks bring_up.launch enable_bot:=true task:=whereisthis
